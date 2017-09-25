@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="TASARIM12PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entities.Yabancidil</class>
+    <class>Entities.Lojmandurum</class>
+    <class>Entities.Izindurum</class>
+    <class>Entities.KisiAyrilan</class>
+    <class>Entities.Job</class>
+    <class>Entities.Employeeinfo</class>
+    <class>Entities.Gorevsekli</class>
+    <class>Entities.KimlikTablo</class>
+    <class>Entities.Atamasekli</class>
+    <class>Entities.AtamaTablo</class>
+    <class>Entities.Birim</class>
+    <class>Entities.Unvan</class>
+    <class>Entities.Malihaklar</class>
+    <class>Entities.Hizmetcetveli</class>
+    <class>Entities.Ayrilmanedeni</class>
+    <class>Entities.Yakinaile</class>
+    <class>Entities.GirisTablo</class>
+    <class>Entities.DisiplinTablo</class>
+    <class>Entities.Hizmetsinifi</class>
+    <class>Entities.Izinsekli</class>
+    <class>Entities.Gorev</class>
+    <class>Entities.OdulTablo</class>
+    <class>Entities.Userinfo</class>
+    <class>Entities.Isinmasekli</class>
+    <class>Entities.Izingiris</class>
+    <class>Entities.personel</class>
+    <class>Entities.Doktable</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:C:\Users\Ruhi ÇELİK\Documents\NetBeansProjects\TASARIM12\tasarim12.sqlite"/>
+      <property name="javax.persistence.jdbc.user" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
